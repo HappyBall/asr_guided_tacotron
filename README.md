@@ -22,7 +22,7 @@ https://github.com/HappyBall/asr_guided_tacotron.git
 Before training the whole model includes Tacotron model and LAS model, you need to pre-train both models respectively.
 
 Also, you can download our pre-trained Tacotron models
-[Download](http://speech.ee.ntu.edu.tw/~yangchiyi/pretrained_tacotron.tgz) and LAS models [Download](http://speech.ee.ntu.edu.tw/~yangchiyi/pretrained_las.tgz) to skip the pre-train procedures.
+[Here](http://speech.ee.ntu.edu.tw/~yangchiyi/pretrained_tacotron.tgz) and LAS models [Here](http://speech.ee.ntu.edu.tw/~yangchiyi/pretrained_las.tgz) to skip the pre-train procedures.
 
 ### Pre-train LAS model
 
@@ -72,7 +72,7 @@ Run:
 `--prepro_path`: the path of the preprocessed data directory  
 `--test_data`: the path of the text file which contains input text sequences to synthesize speech  
 `--ref_wavfile`: the path of the reference audio file which you want to encode prosody from  
-`--train_data_name`: the transcription file name using for training
+`--train_data_name`: the transcription file name using for training  
 `--taco_logdir`: the path of the directory to save or load Tacotron models  
 `--taco_logfile`: the path of Tacotron training log file  
 `--las_logdir`: the path of the directory to save or load LAS models  
@@ -85,7 +85,7 @@ Run:
 ## Files in this project
 
 ### Folders:
-`las/`: modules and networks of las model
+`las/`: modules and networks of las model  
 `tacotron/`: modules and networks of tacotron model
 
 ### Files:
@@ -95,6 +95,6 @@ Run:
 `hyperparams.py`: set up training hyperparameters and directory for saving models  
 `prepro.py`: preprocess data  
 `synthesize.py`: synthesize speech conditioned on input text sequences in the test sentence file and the reference audio file  
-`train_las.py`: pre-train LAS models
+`train_las.py`: pre-train LAS models  
 `train_origin_tacotron.py`: pre-train Tacotron models without guidance of ASR  
 `train_tacotron.py`: train to improve existed Tacotron models with guidance of ASR  
