@@ -1,5 +1,5 @@
 '''
-By kyubyong park. kbpark.linguist@gmail.com.
+modified from
 https://www.github.com/kyubyong/tacotron
 '''
 from hyperparams import Hyperparams as hp

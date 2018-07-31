@@ -1,7 +1,3 @@
-'''
-modified from
-https://www.github.com/kyubyong/tacotron
-'''
 from hyperparams import Hyperparams as hp
 import tqdm
 from data_load import load_data, load_vocab
