@@ -4,9 +4,13 @@ Use LAS model to enhance the performance of tacotron, especially at the lack of 
 
 ## Prerequisites
 1. Python packages:
-    - Python 3.4 or higher
-    - Tensorflow r1.8 or higher
-    - Numpy
+    - python 3.4 or higher
+    - tensorflow r1.8 or higher
+    - numpy
+    - librosa
+    - scipy
+    - tqdm
+    - matplotlib
 
 2. Clone this repository:
 ```shell=
